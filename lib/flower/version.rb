@@ -1,3 +1,3 @@
-module Flower
+class Flower
   VERSION = "0.0.1"
 end

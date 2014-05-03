@@ -1,8 +1,8 @@
 require 'flower'
 require 'flower/rose'
 
-module Flower
-  describe Rose, '#name' do
+describe Flower::Rose do
+  describe '#name' do
     subject(:rose) { described_class.new }
 
     it 'returns rose' do

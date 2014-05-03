@@ -1,4 +1,7 @@
 require "flower/version"
 
-module Flower
+class Flower
+  def name
+    'flower'
+  end
 end
